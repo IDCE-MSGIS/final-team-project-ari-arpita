@@ -1,4 +1,4 @@
-# Name: Ariana Nicholson 
+# Name: Ariana Nicholson and Arpita
 
 # Assignment title: Script 2 final
 
