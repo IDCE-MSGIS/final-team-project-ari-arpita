@@ -1,15 +1,13 @@
-# Place necessary comments and code here. 
+# Name: Ariana Nicholson 
 
-# Name: Ariana Nicholson
+# Assignment title: Script 2 final
 
-# Assignment title: Lab 1
+# Time to complete: 1 hour 15 minutes
 
-# Time to complete: 45 min
-
-# Description: This script calculates the rainfall in gallons on a small plot of land in a one inch rainstorm.For our final project will be focusing on lab 3 about calculating the runoff from any given rainfall. We will be adding a few aspects. First, we will define it as a function. Then, we will create options for user input of the variables of plot length in feet, plot width in feet, and rainfall in inches. Then, we will have it do the proper conversions in the script from feet to inches, and cubic inches to gallons. Finally, we will give output in gallons. We are also considered adding snowfall as another input option, which we will explore when we create our program. 
+# Description: This script calculates the runoff from rainfall and snowfall in gallons on a user defined plot of land, with user defined percipitation levels.
 
 #Introdution
-print "Welcome to the runoff calculator! Follow the on-screen instructions to find the rainfall in gallons from any sized rectangular area."
+print "Welcome to the runoff calculator! Follow the on-screen instructions to find the perciptation runoff in gallons from any rectangular area."
 print "     "
 
 #Geting user input for plot length and width in feet 
@@ -27,7 +25,7 @@ areain = (lengthin * widthin)
 input_snowfall = input ("How many inches of snow fell?")
 input_rainfall = input ("How many inches of rain fell?")
 
-#Calculating square inches of rainfall and snowfall
+#Calculating square inches of rainfall and snowfall. To calculate snow, we divide the number of inches by 10. Source: http://www.maynardlifeoutdoors.com/2013/02/snow-to-water-conversion.html
 
 snowfallin = input_snowfall
 snowin = snowfallin * areain
@@ -37,19 +35,24 @@ rainfallin = input_rainfall
 waterin = rainfallin * areain
 
 #Converting square inches to gallons
-snowwatergal = (watersnowin * )
+snowwatergal = (watersnowin * 0.004329)
 watergal = (waterin * 0.004329)
+
+#adding up total of snow and rain
+
+totalgal = watergal + snowwatergal
 
 #Printing the final results
 print "     "
-print "You entered the length as:", input_length, "feet"
+print "You entered the plot length as:", input_length, "feet"
 
-print "You entered the width as:", input_width, "feet"
+print "You entered the plot width as:", input_width, "feet"
 
 print "You entered the rainfall as:", input_rainfall, "inches"
 
+print "You entered the snowfall as:", input_snowfall, "inches"
+
 print "     "
 print "Therefore:"
-print waterin, "cubic inches of water fell."
 
-print "This is eqaul to ", watergal, "gallons."
+print "There was", totalgal, "gallons of water runoff on this plot of land."
