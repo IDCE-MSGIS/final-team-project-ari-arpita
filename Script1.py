@@ -50,4 +50,23 @@ for i in weather_forecast:
 
 # Print list to remove unicode characters
 for day in forecast:
-    print day
+  day = day.replace('CloudyLow','Cloudy Low')
+  day = day.replace('High',' High')
+  day = day.replace('ChanceShowers', 'Chance Showers')
+  day = day.replace('thenPartly', 'then Partly')
+  day = day.replace('ShowersLow', 'Showers Low')
+  day = day.replace('RainLow', 'Rain Low')
+  day = day.replace('LikelyLow', 'Likely Low')
+  day = day.replace('thenMostly','then Mostly')
+  day = day.replace('MondayNight','Monday Night')
+  day = day.replace('TuesdayNight','Tuesday Night')
+  day = day.replace('WednesdayNight','Wednesday Night')
+  day = day.replace('ThursdayNight','Thursday Night')
+  day = day.replace('FridayNight','Friday Night')
+  day = day.replace('SaturdayNight','Saturday Night')
+  day = day.replace('SundayNight','Sunday Night')
+  day = day.replace('ClearLow','Clear Low')
+  day = day.replace('IsolatedT-storms','Isolated T-storms')
+  day = day.replace('T-stormsLow','T-storms Low')
+  day = day.capitalize()
+  print day.upper()
