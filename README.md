@@ -27,8 +27,12 @@ Make sure you are using Python version 2.7. You can check the Python version in 
 Remember to update the Script1.py file to include comments and documentation in your script to tell me what it’s doing!
 
 ## Final Project: Script 2
-### Your Chosen Assignment
-For this script, you will complete the assignment that you have proposed, which involves modifying a previous exercise. Remember to update the Script2.py file to include comments and documentation in your script to tell me what it’s doing!
+### Runoff Calculator - Reboot of Lab 1
+This script calculates the runoff from rainfall and snowfall in gallons on a user defined plot of land, with user defined percipitation levels. The calculator begins with a script introducing the goal of the calculator, and then a prompt to input the length of the plot in feet. Then, the calculator asks for an input of the width of the plot in feet. The script then converts these numbers to inches and multiples them together to get the area in inches squared. 
+
+In the next section of code, the script asks the user to input rain and snow in inches. Then, the script converts inches of snowfall into inches of water. Then, the script converts both of these numbers to cubic inches of water by multiplying them by the area in inches that it previously calculated. 
+
+Finally, the script multiples both numbers by the decimal needed to convert cubic inches into gallons (0.004329). The script adds these numbers, and provides the user with an output of the numbers that they entered, and the total gallons of water runoff based on the numbers that the user entered. 
 
 ## Final Project: Documentation
 ### Changing this README
