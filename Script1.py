@@ -16,8 +16,8 @@ forecast = []
 
 ## Provide the latitude and longitude for the location you would like to check the forecast for
 ## Lat/lon in decimal degrees provided for Worcester, MA
-lat =str(input("Please enter the latitude value : "))
-lon=str(input("Please enter the Longitude value: "))
+lat =str(input("Please enter the latitude : "))
+lon =str(input("Please enter the Longitude : "))
 
 #print ("The latitude value entered by the user is : " ),lat
 #print ("The longitude vale entered by the user is : " ),lon
@@ -52,6 +52,7 @@ for i in weather_forecast:
 for day in forecast:
   day = day.replace('CloudyLow','Cloudy Low')                                    #Add spaces within the unicode output
   day = day.replace('High',' High')                                              #Add spaces within the unicode output
+  day = day.replace('ThisAfternoon', 'This Afternoon')                           #Add spaces within the unicode output
   day = day.replace('ChanceShowers', 'Chance Showers')                           #Add spaces within the unicode output
   day = day.replace('thenPartly', 'then Partly')                                 #Add spaces within the unicode output
   day = day.replace('ShowersLow', 'Showers Low')                                 #Add spaces within the unicode output
@@ -61,6 +62,7 @@ for day in forecast:
   day = day.replace('ClearLow','Clear Low')                                      #Add spaces within the unicode output
   day = day.replace('IsolatedT-storms','Isolated T-storms')                      #Add spaces within the unicode output
   day = day.replace('T-stormsLow','T-storms Low')                                #Add spaces within the unicode output
+  day = day.replace('ShowersLikely', 'Showers Likely')                           #Add spaces within the unicode output
   day = day.replace('MondayNight','Monday Night')                                #Add spaces within the name of the day and the timing 
   day = day.replace('TuesdayNight','Tuesday Night')                              #Add spaces within the name of the day and the timing
   day = day.replace('WednesdayNight','Wednesday Night')                          #Add spaces within the name of the day and the timing
@@ -69,5 +71,4 @@ for day in forecast:
   day = day.replace('SaturdayNight','Saturday Night')                            #Add spaces within the name of the day and the timing
   day = day.replace('SundayNight','Sunday Night')                                #Add spaces within the name of the day and the timing
   
-  day = day.capitalize()
   print day.upper()
