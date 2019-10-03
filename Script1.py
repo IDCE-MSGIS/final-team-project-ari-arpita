@@ -71,4 +71,4 @@ for day in forecast:
   day = day.replace('SaturdayNight','Saturday Night')                            #Add spaces within the name of the day and the timing
   day = day.replace('SundayNight','Sunday Night')                                #Add spaces within the name of the day and the timing
   
-  print day.upper()
+  print day.upper()                                                              #Printing the output in Upper Case
