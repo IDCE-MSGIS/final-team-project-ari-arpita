@@ -2,7 +2,7 @@
 
 # Assignment title: Script 2 final
 
-# Time to complete: 1 hour 15 minutes
+# Time to complete: 1 hour 30 minutes
 
 # Description: This script calculates the runoff from rainfall and snowfall in gallons on a user defined plot of land, with user defined percipitation levels.
 
