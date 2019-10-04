@@ -1,4 +1,7 @@
-# Place necessary comments and code here. 
+# Name : Ari Nicholson and Arpita Shalini
+# Assignment Title : Final project Script 1 -  Web scraping Forecast
+# Time taken : 2 Hours.
+# Description :  Asking the user to input latitude and longitude and scraping the data from the National Weather website to print the weather conditions of the place enetered with proper spacing and in uppercase. 
 '''
 # Assignment title: Final Project- Web-scraping Weather Forecast
 # Date: 09/23/2019
@@ -54,27 +57,26 @@ for day in forecast:
   day = day.replace('High',' High')                                              #Add spaces within the unicode output
   day = day.replace('ThisAfternoon', 'This Afternoon')                           #Add spaces within the unicode output
   day = day.replace('ChanceShowers', 'Chance Showers')                           #Add spaces within the unicode output
-  day = day.replace('thenPartly', 'then Partly')                                 #Add spaces within the unicode output
+  day = day.replace('then', ' then ')                                            #Add spaces within the unicode output
   day = day.replace('ShowersLow', 'Showers Low')                                 #Add spaces within the unicode output
-  day = day.replace('RainLow', 'Rain Low')                                       #Add spaces within the unicode output
-  day = day.replace('LikelyLow', 'Likely Low')                                   #Add spaces withinthe unicode output
-  day = day.replace('thenMostly','then Mostly')                                  #Add spaces within the unicode output
-  day = day.replace('ClearLow','Clear Low')                                      #Add spaces within the unicode output
+  day = day.replace('Low', ' Low')                                               #Add spaces within the unicode output
+  #day = day.replace('LikelyLow', 'Likely Low')                                   #Add spaces within the unicode output
+  #day = day.replace('ClearLow','Clear Low')                                      #Add spaces within the unicode output
   day = day.replace('IsolatedT-storms','Isolated T-storms')                      #Add spaces within the unicode output
-  day = day.replace('T-stormsLow','T-storms Low')                                #Add spaces within the unicode output
+  #day = day.replace('T-stormsLow','T-storms Low')                                #Add spaces within the unicode output
   day = day.replace('ShowersLikely', 'Showers Likely')                           #Add spaces within the unicode output
-  day = day.replace('MondayNight','Monday Night')                                #Add spaces within the name of the day and the timing 
-  day = day.replace('TuesdayNight','Tuesday Night')                              #Add spaces within the name of the day and the timing
-  day = day.replace('WednesdayNight','Wednesday Night')                          #Add spaces within the name of the day and the timing
-  day = day.replace('ThursdayNight','Thursday Night')                            #Add spaces within the name of the day and the timing
-  day = day.replace('FridayNight','Friday Night')                                #Add spaces within the name of the day and the timing
-  day = day.replace('SaturdayNight','Saturday Night')                            #Add spaces within the name of the day and the timing
-  day = day.replace('SundayNight','Sunday Night')                                #Add spaces within the name of the day and the timing
-  day = day.replace('FrostLow','Frost Low')                                #Add spaces within the name of the day and the timing
-  day = day.replace('Frostthen','Frost then')                                #Add spaces within the name of the day and the timing
-  day = day.replace('BecomingSunny','Becoming Sunny')                                #Add spaces within the name of the day and the timing
-  day = day.replace('thenAreas','then Areas')                                #Add spaces within the name of the day and the timing
-  day = day.replace('Sunnythen','Sunny then')                                #Add spaces within the name of the day and the timing
+  day = day.replace('Night',' Night')                                #Add spaces within the name of the day and the timing 
+  #day = day.replace('TuesdayNight','Tuesday Night')                              #Add spaces within the name of the day and the timing
+  #day = day.replace('WednesdayNight','Wednesday Night')                          #Add spaces within the name of the day and the timing
+  #day = day.replace('ThursdayNight','Thursday Night')                            #Add spaces within the name of the day and the timing
+ # day = day.replace('FridayNight','Friday Night')                                #Add spaces within the name of the day and the timing
+  #day = day.replace('SaturdayNight','Saturday Night')                            #Add spaces within the name of the day and the timing
+  #day = day.replace('SundayNight','Sunday Night')                                #Add spaces within the name of the day and the timing
+  #day = day.replace('FrostLow','Frost Low')                                      #Add spaces within the unicode output
+  #day = day.replace('Frostthen','Frost then')                                    #Add spaces within the unicode output
+  day = day.replace('BecomingSunny','Becoming Sunny')                            #Add spaces within the unicode output
+  #day = day.replace('thenAreas','then Areas')                                    #Add spaces within the unicode output
+  #day = day.replace('Sunnythen','Sunny then')                                    #Add spaces within the name of the day and the timing
   day = day.replace('SlightChance','Slight Chance')                                #Add spaces within the name of the day and the timing
 
   print day.upper()                                                              #Printing the output in Upper Case
