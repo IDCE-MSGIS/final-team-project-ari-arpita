@@ -1,4 +1,7 @@
-
+# Names: Ariana Nicholson and Arpita Shalini
+# Assignment title: Final Project
+#Due date: October 6th, 2019
+# Time to complete (Read Me): 1 hour
 
 ## Final Project: Script 1
 ### Web-scraping Weather Forecast Information with Python
