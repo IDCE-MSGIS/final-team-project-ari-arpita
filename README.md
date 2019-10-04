@@ -1,10 +1,10 @@
-For script 1, you can explain the purpose of the script, how well it functioned (or if it didn’t), and whether or not you might use something like this in the future.
-For script 2, clearly explain what the goal of the script is; what inputs are required; what outputs are expected. Ideally, you’d have a real-life scenario in hand (e.g. “by allowing user input for the script to _______, we ensure that it can be easily run without a user needing to program in Python.”). That is only an example but should give you an idea for what I’m looking for. Additionally, you should describe the process of writing the script: was it easy, hard, what challenges or errors did you face and how did you resolve the issue? If you use any resources to help write your code (e.g. Stackoverflow.com; the text book; etc.) then please describe these in the body of the text. E.g. “After repeated syntax errors, I checked Stackoverflow.com to find that…”  If you can link to a specific thread or page that would be great.
 
- 600 – 800 word write up 
 
 ## Final Project: Script 1
 ### Web-scraping Weather Forecast Information with Python
+
+For script 1, you can explain the purpose of the script, how well it functioned (or if it didn’t), and whether or not you might use something like this in the future.
+
 In this lab, you will work with a script that scrapes the 5-day weather forecast from the National Weather Service website. The script extracts information from multiple elements listed under the same class name using the BeautifulSoup library. 
 
 - Copy the **NWS_WeatherForecast.py** file and paste it into the online Python compiler: https://repl.it/languages/python
