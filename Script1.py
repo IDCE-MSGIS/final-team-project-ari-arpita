@@ -70,5 +70,11 @@ for day in forecast:
   day = day.replace('FridayNight','Friday Night')                                #Add spaces within the name of the day and the timing
   day = day.replace('SaturdayNight','Saturday Night')                            #Add spaces within the name of the day and the timing
   day = day.replace('SundayNight','Sunday Night')                                #Add spaces within the name of the day and the timing
-  
+  day = day.replace('FrostLow','Frost Low')                                #Add spaces within the name of the day and the timing
+  day = day.replace('Frostthen','Frost then')                                #Add spaces within the name of the day and the timing
+  day = day.replace('BecomingSunny','Becoming Sunny')                                #Add spaces within the name of the day and the timing
+  day = day.replace('thenAreas','then Areas')                                #Add spaces within the name of the day and the timing
+  day = day.replace('Sunnythen','Sunny then')                                #Add spaces within the name of the day and the timing
+  day = day.replace('SlightChance','Slight Chance')                                #Add spaces within the name of the day and the timing
+
   print day.upper()                                                              #Printing the output in Upper Case
