@@ -59,6 +59,7 @@ for day in forecast:
   day = day.replace('then', ' then ')                                            #Add spaces within the unicode output
   day = day.replace('ShowersLow', 'Showers Low')                                 #Add spaces within the unicode output
   day = day.replace('Low', ' Low')                                               #Add spaces within the unicode output
+  day = day.replace('and', ' and')                                               #Add spaces within the unicode output
   day = day.replace('IsolatedT-storms','Isolated T-storms')                      #Add spaces within the unicode output
   day = day.replace('ShowersLikely', 'Showers Likely')                           #Add spaces within the unicode output
   day = day.replace('Night',' Night')                                            #Add spaces within the name of the day and the timing 
