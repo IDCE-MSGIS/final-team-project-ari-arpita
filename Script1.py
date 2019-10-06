@@ -18,7 +18,6 @@ from bs4 import BeautifulSoup
 forecast = []
 
 ## Provide the latitude and longitude for the location you would like to check the forecast for
-## Lat/lon in decimal degrees provided for Worcester, MA
 lat =str(input("Please enter the latitude : "))
 lon =str(input("Please enter the Longitude : "))
 
@@ -51,7 +50,7 @@ for i in weather_forecast:
     i = i.text
     forecast.append(i)
 
-# Print list to remove unicode characters
+# Print list to remove unicode characters and use of replace function
 for day in forecast:
   day = day.replace('CloudyLow','Cloudy Low')                                    #Add spaces within the unicode output
   day = day.replace('High',' High')                                              #Add spaces within the unicode output
