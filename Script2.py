@@ -7,8 +7,8 @@
 # Description: This script calculates the runoff from rainfall and snowfall in gallons on a user defined plot of land, with user defined percipitation levels.
 
 #Introdution
-print "Welcome to the runoff calculator! Follow the on-screen instructions to find the perciptation runoff in gallons from any rectangular area."
-print "     "
+print "Welcome to the runoff calculator! Follow the on-screen instructions to find the perciptation runoff in gallons from any rectangular area.\n"
+
 
 #Geting user input for plot length and width in feet 
 input_length = input ("What is the length of the plot in feet?")
@@ -43,8 +43,8 @@ watergal = (waterin * 0.004329)
 totalgal = watergal + snowwatergal
 
 #Printing the final results
-print "     "
-print "You entered the plot length as:", input_length, "feet"
+
+print "\nYou entered the plot length as:", input_length, "feet"
 
 print "You entered the plot width as:", input_width, "feet"
 
@@ -52,7 +52,5 @@ print "You entered the rainfall as:", input_rainfall, "inches"
 
 print "You entered the snowfall as:", input_snowfall, "inches"
 
-print "     "
-print "Therefore:"
 
-print "There was", totalgal, "gallons of water runoff on this plot of land."
+print "\nTherefore: \nThere was", totalgal, "gallons of water runoff on this plot of land."
